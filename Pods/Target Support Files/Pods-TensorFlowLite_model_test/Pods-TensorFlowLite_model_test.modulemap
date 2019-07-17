@@ -1,0 +1,6 @@
+framework module Pods_TensorFlowLite_model_test {
+  umbrella header "Pods-TensorFlowLite_model_test-umbrella.h"
+
+  export *
+  module * { export * }
+}

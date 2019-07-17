@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>638744459433-jbsjktfa1ke3qut8mdt6d4g5dnshu7vh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.638744459433-jbsjktfa1ke3qut8mdt6d4g5dnshu7vh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBnFylN5Cak8GzeH2HsSv5r3Urj03Chsok</string>
+	<key>GCM_SENDER_ID</key>
+	<string>638744459433</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>SophieMBerger.TensorFlowLite-model-test</string>
+	<key>PROJECT_ID</key>
+	<string>tensorflowlitetest-934b2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tensorflowlitetest-934b2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:638744459433:ios:76ec142693d6edeb</string>
+	<key>DATABASE_URL</key>
+	<string>https://tensorflowlitetest-934b2.firebaseio.com</string>
+</dict>
+</plist>
