@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "09C10A609729447B5E531B06C0B6B189"
+               BlueprintIdentifier = "AEB4B0B035729F343DB9532C51E26376"
                BuildableName = "TensorFlowLite"
                BlueprintName = "TensorFlowLite"
                ReferencedContainer = "container:Pods.xcodeproj">

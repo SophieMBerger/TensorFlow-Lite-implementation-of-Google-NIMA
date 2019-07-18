@@ -8,5 +8,7 @@ target 'TensorFlowLite_model_test' do
   # Pods for TensorFlowLite_model_test
 pod 'Firebase/Core'
 pod 'Firebase/MLModelInterpreter'
+pod 'Firebase/Analytics'
+pod 'Firebase/Performance'
 
 end
