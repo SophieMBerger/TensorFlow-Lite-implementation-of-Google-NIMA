@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3E26D423C9ADF6034A6B110A1046954A"
+               BlueprintIdentifier = "929260D9CD70172D2A907F6D332C2F3E"
                BuildableName = "Pods_TensorFlowLite_model_test.framework"
                BlueprintName = "Pods-TensorFlowLite_model_test"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3E26D423C9ADF6034A6B110A1046954A"
+            BlueprintIdentifier = "929260D9CD70172D2A907F6D332C2F3E"
             BuildableName = "Pods_TensorFlowLite_model_test.framework"
             BlueprintName = "Pods-TensorFlowLite_model_test"
             ReferencedContainer = "container:Pods.xcodeproj">

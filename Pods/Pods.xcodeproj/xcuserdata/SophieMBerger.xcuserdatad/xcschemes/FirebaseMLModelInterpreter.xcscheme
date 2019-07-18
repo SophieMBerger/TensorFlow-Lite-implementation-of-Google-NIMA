@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B2D15F84B11E2670B6364F7C7CC83697"
+               BlueprintIdentifier = "AF3EEDAD474511010F3FD21AE10FF5CB"
                BuildableName = "FirebaseMLModelInterpreter"
                BlueprintName = "FirebaseMLModelInterpreter"
                ReferencedContainer = "container:Pods.xcodeproj">
