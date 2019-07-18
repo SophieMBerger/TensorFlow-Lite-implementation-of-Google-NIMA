@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TensorFlowLite_model_test/ViewController.swift"
-            timestampString = "585131631.543893"
+            timestampString = "585135035.786122"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "223"
             endingLineNumber = "223"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "runModels(fromBestScore:nameOfInputImage:aestheticInterpreter:technicalInterpreter:inputs:ioOptions:sender:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -42,13 +42,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TensorFlowLite_model_test/ViewController.swift"
-            timestampString = "585131631.544315"
+            timestampString = "585135035.786189"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "156"
             endingLineNumber = "156"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "prepareImage(fromBestScore:inputImageTitle:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
