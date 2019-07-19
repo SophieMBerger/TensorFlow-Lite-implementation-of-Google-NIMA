@@ -10,6 +10,7 @@
 		C22D6C5422DDF7DC00DD5625 /* BestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22D6C5322DDF7DC00DD5625 /* BestViewController.swift */; };
 		C243011E22DDBB1800BD3807 /* aesthetic_model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = C243011C22DDBB1800BD3807 /* aesthetic_model.tflite */; };
 		C243011F22DDBB1800BD3807 /* technical_model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = C243011D22DDBB1800BD3807 /* technical_model.tflite */; };
+		C25184E922E1A3AE00528F41 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25184E822E1A3AE00528F41 /* CoreTelephony.framework */; };
 		C2C3293522DC6186003670F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2C3293422DC6186003670F8 /* GoogleService-Info.plist */; };
 		C2EF381422D8C85100C332BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EF381322D8C85100C332BF /* AppDelegate.swift */; };
 		C2EF381622D8C85100C332BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EF381522D8C85100C332BF /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 		C22D6C5322DDF7DC00DD5625 /* BestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestViewController.swift; sourceTree = "<group>"; };
 		C243011C22DDBB1800BD3807 /* aesthetic_model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; name = aesthetic_model.tflite; path = "../../New_image_ranker/image-quality-assessment/TensorFlowLite_models/aesthetic_model.tflite"; sourceTree = "<group>"; };
 		C243011D22DDBB1800BD3807 /* technical_model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; name = technical_model.tflite; path = "../../New_image_ranker/image-quality-assessment/TensorFlowLite_models/technical_model.tflite"; sourceTree = "<group>"; };
+		C25184E822E1A3AE00528F41 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		C2C3293422DC6186003670F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C2EF381022D8C85100C332BF /* TensorFlowLite_model_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TensorFlowLite_model_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2EF381322D8C85100C332BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C25184E922E1A3AE00528F41 /* CoreTelephony.framework in Frameworks */,
 				F9F28604FAB1B7266004E52D /* Pods_TensorFlowLite_model_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,6 +54,7 @@
 		3AA373695CC60DEC863C6173 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C25184E822E1A3AE00528F41 /* CoreTelephony.framework */,
 				8510B6DCCC236CD8DAFA48A5 /* Pods_TensorFlowLite_model_test.framework */,
 			);
 			name = Frameworks;
