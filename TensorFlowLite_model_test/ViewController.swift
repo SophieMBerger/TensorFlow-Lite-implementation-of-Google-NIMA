@@ -22,7 +22,6 @@ class ViewController: UIViewController {
     var technical = 0.0
     var inputs = ModelInputs()
     var ioOptions = ModelInputOutputOptions()
-    let roundingDigits: Double = 100000
     
     // Creating an interpreter from the models
     let aestheticOptions = ModelOptions(
