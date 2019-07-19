@@ -100,8 +100,7 @@ class ViewController: UIViewController {
                       "pedestrians-400811_640",
                       "people-3104635_640",
                       "person-1245959_640"]
-        
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -187,10 +186,6 @@ class ViewController: UIViewController {
     
     func runModels(fromBestScore: Bool, nameOfInputImage: String? = nil, aestheticInterpreter: ModelInterpreter, technicalInterpreter: ModelInterpreter, inputs: ModelInputs, ioOptions: ModelInputOutputOptions, sender: BestViewController? = nil) {
         
-        var roundedAesthetic = 0.0
-        var roundedTechnical = 0.0
-        var roundedMean = 0.0
-        
         aestheticInterpreter.run(inputs: inputs, options: ioOptions) { outputs, error in
             self.aesthetic = 0.0
             self.technical = 0.0
@@ -205,7 +200,6 @@ class ViewController: UIViewController {
                 guard let index = probabilities?.firstIndex(of: value) else { return }
                 // To get the over all score multiply each score between 1 and 10 by the probability of having said score and then add them together
                 self.aesthetic += Double(truncating: value) * Double(index + 1)
-                roundedAesthetic = round(self.aesthetic * self.roundingDigits) / self.roundingDigits
             }
             if !fromBestScore {
                 self.aestheticLabel.text = "The aesthetic score is: \(self.aesthetic)"
@@ -223,17 +217,14 @@ class ViewController: UIViewController {
                 guard let index = probabilities?.firstIndex(of: value) else { return }
                 // To get the over all score multiply each score between 1 and 10 by the probability of having said score and then add them together
                 self.technical += Double(truncating: value) * Double(index + 1)
-                roundedTechnical = round(self.technical * self.roundingDigits) / self.roundingDigits
             }
             if !fromBestScore {
                 self.technicalLabel.text = "The technical score is: \(self.technical)"
                 let meanScore = (self.aesthetic + self.technical) / 2
-                roundedMean = round(meanScore * self.roundingDigits) / self.roundingDigits
                 self.meanLabel.text = "The average score is: \(meanScore)"
             } else {
                 let currentMeanScore = (self.aesthetic + self.technical) / 2
                 if currentMeanScore > sender!.bestMeanScore {
-                    roundedMean = round(currentMeanScore * self.roundingDigits) / self.roundingDigits
                     sender!.bestMeanScore = currentMeanScore
                     sender!.nameOfBestImage = nameOfInputImage!
                     
